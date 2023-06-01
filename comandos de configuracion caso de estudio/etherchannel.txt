@@ -1,0 +1,21 @@
+interface range fa0/18-19
+channel-group 1 mode desirable
+
+interface port-channel 1
+switchport trunk encapsulation dot1q 
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,50
+switchport trunk native vlan 100
+
+-------------------------------------------------
+
+interface range fa0/18-19
+channel-group 1 mode auto
+
+interface port-channel 1
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,50
+switchport trunk native vlan 100
+
+s

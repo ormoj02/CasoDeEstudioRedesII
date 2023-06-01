@@ -1,0 +1,51 @@
+int fa0/0.10
+standby version 2
+standby 10 ip 192.168.176.1
+standby 1 priority 150
+standby 1 preempt
+
+int fa0/0.20
+standby version 2
+standby 20 ip 192.168.168.1
+standby 20 priority 150
+standby 20 preempt
+
+int fa0/0.30
+standby version 2
+standby 30 ip 192.168.164.1
+standby 30 priority 150
+standby 30 preempt
+
+int fa0/0.40
+standby version 2
+standby 40 ip 192.168.162.1
+standby 40 priority 150
+standby 40 preempt
+
+int fa0/0.50
+standby version 2
+standby 50 ip 192.168.161.193
+standby 50 priority 150
+standby 50 preempt
+
+-----------------------------------------
+
+int fa0/0.10
+standby version 2
+standby 10 ip 192.168.176.1
+
+int fa0/0.20
+standby version 2
+standby 20 ip 192.168.168.1
+
+int fa0/0.30
+standby version 2
+standby 30 ip 192.168.164.1
+
+int fa0/0.40
+standby version 2
+standby 40 ip 192.168.162.1
+
+int fa0/0.50
+standby version 2
+standby 50 ip 192.168.161.193

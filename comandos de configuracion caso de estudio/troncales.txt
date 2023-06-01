@@ -1,0 +1,18 @@
+en
+conf t
+vlan 10
+name Sales
+vlan 20
+name Production
+vlan 30
+name Accounting
+vlan 40
+name HR
+vlan 50
+name Management
+
+int range fa0/1-3, fa0/23-24
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,50
+switchport trunk native vlan 100

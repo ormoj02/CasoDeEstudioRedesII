@@ -1,0 +1,40 @@
+int fa0/0.10
+encapsulation dot1q 10
+ip address 192.168.176.2 255.255.240.0
+
+int fa0/0.20
+encapsulation dot1q 20
+ip address 192.168.168.2 255.255.248.0
+
+int fa0/0.30
+encapsulation dot1q 30
+ip address 192.168.164.2 255.255.252.0
+
+int fa0/0.40
+encapsulation dot1q 40
+ip address 192.168.162.2 255.255.254.0
+
+int fa0/0.50
+encapsulation dot1q 50
+ip address 192.168.161.194 255.255.255.192
+
+------------------------------------------
+int fa0/0.10
+encapsulation dot1q 10
+ip address 192.168.176.3 255.255.240.0
+
+int fa0/0.20
+encapsulation dot1q 20
+ip address 192.168.168.3 255.255.248.0
+
+int fa0/0.30
+encapsulation dot1q 30
+ip address 192.168.164.3 255.255.252.0
+
+int fa0/0.40
+encapsulation dot1q 40
+ip address 192.168.162.3 255.255.254.0
+
+int fa0/0.50
+encapsulation dot1q 50
+ip address 192.168.161.195 255.255.255.192

@@ -1,0 +1,42 @@
+Subinterfaces
+
+int fa0/0.10
+encapsulation dot1q 10
+ip address IP MASK
+
+int fa0/0.20
+encapsulation dot1q 20
+ip address IP MASK
+
+int fa0/0.30
+encapsulation dot1q 30
+ip address IP MASK
+
+int fa0/0.40
+encapsulation dot1q 40
+ip address IP MASK
+
+int fa0/0.50
+encapsulation dot1q 50
+ip address IP MASK
+
+------------------------------------------
+int fa0/0.10
+encapsulation dot1q 10
+ip address IP MASK
+
+int fa0/0.20
+encapsulation dot1q 20
+ip address IP MASK
+
+int fa0/0.30
+encapsulation dot1q 30
+ip address IP MASK
+
+int fa0/0.40
+encapsulation dot1q 40
+ip address IP MASK
+
+int fa0/0.50
+encapsulation dot1q 50
+ip address IP MASK
